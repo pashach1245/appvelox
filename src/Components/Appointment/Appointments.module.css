@@ -1,0 +1,116 @@
+.appointment {
+    padding: 15px 0 40px 20px;
+
+    /*background-color: #FCFCFC;*/
+
+    width: 1176px;
+}
+
+.appointment__title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+
+    padding-left: 20px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.item {
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px #EBE7FF;
+    border-radius: 5px;
+
+    padding: 20px;
+    margin-right: 20px;
+
+    width: 475px;
+}
+
+.list__inner {
+    display: flex;
+    align-items: center;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item__info span:last-child {
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000;
+    line-height: 20px;
+
+    display: inline-block;
+    max-width: 280px;
+}
+
+.item__info span:first-child {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    line-height: 19px;
+}
+
+.doctor {
+    padding-left: 70px;
+    padding-top: 25px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.doctor__photo {
+    position: absolute;
+    top: calc(50% - 75px);
+    left: 0;
+    transform: translateY(calc(50% + 25px));
+    z-index: 100;
+
+    display: block;
+    border-radius: 50%;
+}
+
+.doctor__name {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #000000;
+
+}
+
+.doctor__profile {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color:  #EBE7FF;
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.electronicCard__title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+
+    padding-left: 20px;
+    margin-bottom: 15px;
+    margin-top: 35px;
+}

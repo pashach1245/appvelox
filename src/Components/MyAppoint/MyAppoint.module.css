@@ -1,0 +1,56 @@
+.myappoint {
+    padding: 20px 0 0 20px;
+}
+
+.myappoint__link {
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    color: #000;
+
+    text-decoration: none;
+
+    padding-left: 25px;
+}
+
+.myappoint__link img {
+    margin-right: 15px;
+}
+
+.myappoint__list {
+    height: 646px;
+    overflow-y: auto;
+    margin-top: 15px;
+    overflow-x: hidden;
+
+    scrollbar-color: #003B72 #EBE7FF;
+    scrollbar-width: thin;
+}
+
+.myappoint__list::-webkit-scrollbar {
+    width: 8px;
+    background: #EBE7FF;
+    border-radius: 5px;
+}
+/*.myappoint__list::-moz-scrollbar {*/
+/*    width: 8px;*/
+/*    background: #EBE7FF;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+.myappoint__list::-webkit-scrollbar-thumb {
+    width: 8px;
+    background: #003B72;
+    border-radius: 5px;
+}
+
+.myappoint__list>div {
+    margin-bottom: 15px;
+}
+
+
+.myappoint__content {
+    display: flex;
+}

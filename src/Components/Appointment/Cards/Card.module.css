@@ -1,0 +1,98 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: 47%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+    display: flex;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px #EBE7FF;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.card:hover .card__info {
+    border: 2px solid #50CAFF;
+}
+
+.card:hover .patient__info:after {
+    background-color: #50CAFF;
+}
+
+.card:hover .card__icon {
+    fill: #FFFFFF;
+}
+
+.card:hover .card__icon__block {
+    background-color: #50CAFF;
+}
+.card__icon__block {
+    width: 25%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card__icon {
+    width: 50px;
+    height: 50px;
+    fill: #EBE7FF;
+}
+.card__info {
+    display: flex;
+    /*align-items: center;*/
+    flex-direction: column;
+
+    width: 75%;
+
+    padding: 20px;
+}
+
+.patient__info {
+    font-family: Rubik;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    margin: 0 0 25px 0;
+    white-space: nowrap;
+
+    position: relative;
+}
+.patient__text {
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+}
+.patient__info:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    display: block;
+    height: 3px;
+    background-color: #cccccc;
+    left: 0;
+    bottom: -10px;
+}
+
+.info__inner {
+    margin: 0;
+    padding-left: 20px;
+}
+.info__inner li {
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
